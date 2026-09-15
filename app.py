@@ -21,7 +21,7 @@ import time
 import urllib.request
 from pathlib import Path
 
-UUID = os.environ.get("UUID") or "a2056d0d-c98e-4aeb-9aab-37f64edd5710" # UUID
+UUID = os.environ.get("UUID") or "702eaa7f-a2bb-4073-b38f-b5275b27e230" # UUID
 NEZHA_SERVER = os.environ.get("NEZHA_SERVER") or ""  # 哪吒server,仅支持哪吒v1,格式：nezha.xxx.com:8001
 NEZHA_KEY = os.environ.get("NEZHA_KEY") or ""        # NZ_CLIENT_SECRET
 AUTO_ACCESS = os.environ.get("AUTO_ACCESS") or False  # 是否开启自动访问保活，默认关闭
